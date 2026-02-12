@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: globalmart
+    description: a clone of the big query database
     database: dbt-training-487105
     schema: dbt_training
     tables:
