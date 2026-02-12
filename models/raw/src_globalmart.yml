@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: globalmart
+    database: dbt-training-487105
+    schema: dbt_training
+    tables:
+      - name: CUSTOMERS
+      - name: ORDERS
+      - name: PRODUCTS

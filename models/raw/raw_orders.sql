@@ -6,4 +6,4 @@
 
 
 select * 
-from dbt_training.ORDERS
+from {{ source('globalmart', 'ORDERS') }}
